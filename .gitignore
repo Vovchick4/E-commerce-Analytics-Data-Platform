@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Data
+# =========================
+
+# Large datasets
+data/raw/
+data/processed/
+data/output/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep sample data
+!data/sample/
+!data/sample/*.csv
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
